@@ -1,0 +1,7 @@
+html, body {
+  width: 100vw;
+}
+.container{
+    height: 100vh;
+    background-color: aquamarine;
+}

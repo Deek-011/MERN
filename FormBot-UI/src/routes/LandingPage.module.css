@@ -1,0 +1,192 @@
+html,
+body {
+  width: 98vw;
+  background: linear-gradient(0deg, #121212, #121212),
+linear-gradient(0deg, #171923, #171923),
+linear-gradient(0deg, #171923, #171923);
+}
+
+.container{
+  position: relative;
+  /* width: 100%; */
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: #ffffff; 
+  margin-bottom: 5rem;
+}
+
+/* Logo section */
+.navbarLogo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbarLogoImg {
+  width: 30px;
+  height: 30px;
+}
+
+.navbarLogoText {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Actions section */
+.navbarActions {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Sign In button */
+.btnSignin {
+  background: transparent;
+  color: #7EA6FF;
+  border: 1px solid #7EA6FF;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.btnSignin:hover {
+  background-color: #ffffff;
+  color: #1c1c28;
+}
+
+/* Create button */
+.btnCreate {
+  background-color: #1A5FFF; /* Blue color */
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.btnCreate:hover {
+  background-color: #1e4db7;
+}
+
+/* main */
+main{
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+}
+main div h1{
+  text-align: center;
+  font-size: 3rem; /* Adjust font size as needed */
+  font-weight: bold; /* Adjust font weight as needed */
+  background: linear-gradient(to right, #4B83FF, #B794F4); /* Replace with your gradient colors */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+main div p{
+  text-align: center;
+  color: white;
+}
+.subText{
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+.shapes{
+  position: absolute;
+  top: 4rem;
+}
+.triangle{
+  left: 0rem;
+  width: 25rem;
+  height: 25rem;
+}
+.ellipse{
+  right: 2rem;
+  width: 20rem;
+  height: 22rem;
+}
+
+.textContainer {
+  text-align: center;
+  color: white;
+  /* padding: 2rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gradientText {
+  font-size: 3.5rem;
+  font-weight: bold;
+  /* margin: 0.5rem 0; */
+  background: linear-gradient(to right, #4B83FF, #B794F4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.description {
+  color: #c0c0c0;
+  font-size: 1rem;
+  margin: 1rem 0;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+/* BANNER */
+.bannerContainer{
+  margin: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  img{
+    max-width: 85%;
+  }
+  
+}
+/* Footer */
+.footerContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.footer{
+  display: flex;
+  color: white;
+  gap: 10rem ;
+  margin-bottom: 3rem;
+}
+.footerlogo{
+  width: 20px;
+  height: 20px;
+}
+.footerRow{
+  display: flex;
+  flex-direction: column;
+  font-size: 0.6rem;
+  gap: 0.2rem;
+  line-height: 1rem;
+  a{
+    text-decoration: underline;
+    color: white;
+  }
+  span{
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding-bottom: 0.7rem;
+  }
+}

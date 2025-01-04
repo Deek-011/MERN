@@ -1,0 +1,131 @@
+/* Set a default width for the entire page */
+html, body {
+  width: 100vw;
+}
+
+/* Center the login container vertically and horizontally */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212; 
+  color: #ffffff;
+  position: relative;
+}
+
+.backButton{
+  position: absolute;
+  top: 2rem;
+  left: 3rem;
+  font-size: 1.5rem;
+}
+
+/* SHAPES */
+.shapes{
+  position: absolute;
+}
+.triangle{
+  left: 3rem;
+}
+.ellipse1{
+  top: 7rem;
+  right: 0rem;
+}
+.ellipse2{
+  bottom: 0rem;
+  right: 18rem;
+}
+
+.labelContainer {
+  display: flex;
+  flex-direction: column;
+  height: 5.2rem;
+  width: 100%;
+  color: white;
+}
+.btnContainer {
+  display: flex;
+  flex-direction: column; 
+  gap: 0.7rem;
+  span{
+    font-size: 0.8rem;
+  font-weight: 700; 
+    text-align: center;
+  }
+}
+
+.labelContainer span {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 700; 
+}
+
+input {
+  padding: 10px; 
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  width: 250px; 
+  outline: none;
+  background: transparent;
+  color: white;
+  width: 18rem;
+}
+
+.btn {
+  padding: 10px 20px; 
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  background: #1A5FFF;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1e4bb8; 
+}
+
+/* Google button styling */
+.googleContainer {
+  background: #1A5FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: transform 0.3s ease;
+}
+.googleContainer img{
+  padding-right: 1rem;
+}
+
+/* Sign-up text styling */
+.signuptext {
+  font-size: 0.8rem; 
+  margin-top: 1rem;
+  text-align: center;
+  color: #ccc; 
+}
+
+/* Highlighted register link */
+.signuptext span {
+  color: #2563eb;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.signuptext span:hover {
+  text-decoration: underline;
+}
+/* ERROR TEXT */
+.errorText {
+  height: 2rem;
+  color: red;
+  font-size: 0.7rem;
+  margin-top: 0.15rem;
+}
