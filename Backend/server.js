@@ -16,7 +16,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 app.use(cors(
   {
-    origin: ["https://form-builder-backend-nu.vercel.app"],
+    origin: ["https://mern-xi-ashy.vercel.app"],
     methods: ["POST", "GET"],
     credentials:true
   }
